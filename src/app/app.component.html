@@ -1,6 +1,5 @@
 <style>
-  
-	.App-header {
+  .App-header {
 		background-color: #fff;
 	}
 
@@ -23,9 +22,29 @@
 	}
 
 	.pf-logo {
-		width: 345px;
-		height: 70px;
+		width: 100%;
+		height: auto;
+		max-width: 345px;
+		max-height: 70px;
 		padding: 1rem 0 2rem 4rem;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.siteNav {
+			float: left;
+			padding: 1rem;
+		}
+		
+		.navbutton {
+			padding: 7px 16px;
+			margin: 2px 5px;
+		}
+
+		.pf-logo {
+			width: 100%;
+			height: auto;
+			padding: 1rem 0 1rem 1rem;
+		}
 	}
 
 	.dashboard {
@@ -34,21 +53,21 @@
 		margin: 0 auto;
 	}
 		
-  .builtin {
-    margin:auto;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    padding:2rem;
-    background-color: white;
-    width: 200px;
-  }
+	.builtin {
+		margin: 0 auto;
+		text-align: center;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		padding:2rem;
+		background-color: white;
+		width: 200px;
+	}
 
-  .frameworkImage {
-    padding-top:1rem;
-    height: 100px;
-  }
+	.frameworkImage {
+		padding-top:1rem;
+		height: 100px;
+	}
 </style>
 <header class="App-header">
   <a href="https://powerfleet.fathym-it.com/"><img src="./assets/powerfleet-logo-80.jpg" class="pf-logo" alt="logo" /></a>
