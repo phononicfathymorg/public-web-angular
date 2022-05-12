@@ -15,7 +15,7 @@ env:
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
   BuildCommand: npm run build
-  Output: ./dist
+  Output: ./dist/angular-typescript-app
 
 jobs:
   build:
